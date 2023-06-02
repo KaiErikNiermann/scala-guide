@@ -4,9 +4,9 @@
 
 ### `type` aliases
 
-********************main idea ~******************** feature that allows us to declare our own types 
+**main idea ~** feature that allows us to declare our own types 
 
-Aliases ⇒ ********************Parameterized Types******************** 
+Aliases ⇒ **Parameterized Types** 
 
 ```scala
 type Integer = Int        // alias Integer for Int type
@@ -16,7 +16,7 @@ type IntList = List[Int] // alias IntList for List[Int] type
 var bar : IntList = List(1, 2, 3)
 ```
 
-Aliases ⇒ ***************Function types***************
+Aliases ⇒ **Function types**
 
 ```scala
 type IntToString = Int => String // function that takes an int and returns a string
@@ -25,7 +25,7 @@ def IntThingToString(items : IntList, intToString: IntToString) : List[String] {
 }
 ```
 
-Aliases ⇒ ******************************************illegal types****************************************** 
+Aliases ⇒ **illegal types** 
 
 ```scala
 type A = List[A] // cyclical reference involving A
