@@ -1,0 +1,6 @@
+[book]
+authors = ["root"]
+language = "en"
+multilingual = false
+src = "src"
+title = "scala-speedrun"
