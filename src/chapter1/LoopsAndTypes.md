@@ -2,8 +2,8 @@
 
 ### `yield` keyword
 
-> The `yield` keyword specifies that the resulting value should be returned each iteration
-> 
+The `yield` keyword specifies that the resulting value should be returned each iteration
+
 
 <script src="https://scastie.scala-lang.org/PUkDScUJQDq2iqu5CyYMnQ.js?theme=dark"></script>
 <!-- ```scala
@@ -16,9 +16,9 @@ val squares2 : List[Int] = for {
 } yield n * n  
 ``` -->
 
-### example #1
-
-<script src="https://scastie.scala-lang.org/qevAgn8SSpy1sPciucs9Tw.js?theme=dark"></script>
+### example 1
+The following is a basic demostration of a type mismatch
+<script src="https://scastie.scala-lang.org/JolzThrCS86R99ja9ZwqBg.js?theme=dark"></script>
 <!-- ```scala
 object testing_stuff extends App {
     def test() : Unit = {
@@ -32,9 +32,15 @@ object testing_stuff extends App {
 }
 ``` -->
 
-### example #2
+### example 2
 
-<script src="https://scastie.scala-lang.org/66MM2QGbRa6lqAIAK39BNA.js?theme=dark"></script>
+In the following example something to take note of is that you can denote the variable `t` by two equivalent types
+- `(Boolean, Boolean, Boolean)`
+- `Tuple3[Boolean, Boolean, Boolean]`
+
+Both types express a tuple of 3 boolean values
+
+<script src="https://scastie.scala-lang.org/KT11oSgHR1iZORmn3uCxWA.js?theme=dark"></script>
 <!-- ```scala
 class A(val x : Int, val y : Int) 
     def test() : Unit = {
