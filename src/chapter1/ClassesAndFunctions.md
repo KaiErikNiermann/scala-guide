@@ -35,9 +35,10 @@ def test() : Unit = {
 ``` -->
 Objects on the other hand due to being passed by reference are linked. Meaning that if we reassign `foo.a` then `bar.a.a` will have been altered both `foo.a` and `bar.a.a` point to the same memory location, so intuitively modifying the value at this location means both references change appropriately.
 
-
-### example #1
-
+<br></br>
+For the following examples I recommend you read through the comments and maybe print out a few of the values. Fundamentally it all just reduces to the two principles of you either creating a new instance of something or passing something by reference.
+### example 1
 <script src="https://scastie.scala-lang.org/0dVaZ3egTJiTEKgvVY4EGA.js?theme=dark"></script>
-### example #2
+
+### example 2
 <script src="https://scastie.scala-lang.org/FxTJsMWOQx6qOBHxkKaVHQ.js?theme=dark"></script>

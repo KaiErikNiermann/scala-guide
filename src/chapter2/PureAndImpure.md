@@ -1,22 +1,23 @@
 # Pure and Impure functions
 
-### **Pure Function**
+## **Pure Function**
+Pure functions have 3 main properties
+1. Output depends **only** on input variables
+2. Doesn’t mutate any hidden state 
+3. Doesn’t read or write data from the outside world
 
-> - Output depends **only** on input variables
-> - Doesn’t mutate any hidden state 
-> - Doesn’t read or write data from the outside world
-
-**Examples**
+### example 1
 
 ```scala
 // function that doubles an integer
 def double(i : Int) : Int = i * 2
 ```
 
-→ Output depends only on input `i` 
-→ Doesn’t mutate any hidden state 
-→ Doesn’t r/w data from the outside world
+1. Output depends only on input `i` 
+2. Doesn’t mutate any hidden state 
+3. Doesn’t r/w data from the outside world
 
+### example 2
 ```scala
 // function that recursivley calculates sum of elements in a list
 def sum(list: List[Int]) : Int = list match {
@@ -25,12 +26,14 @@ def sum(list: List[Int]) : Int = list match {
 }
 ```
 
-### **impure functions**
+---
 
-> → Read and write hidden inputs/outputs
-→ Mutate given parameters  
-→ Output depends on something other than input variables
-> 
+## **Impure functions**
+Impure functions have 3 main properties
+1. Read and write hidden inputs/outputs
+2. Mutate given parameters  
+3. Output depends on something other than input variables
+
 
 ```scala
 println(f"hello world") // writes to output 
@@ -38,7 +41,7 @@ println(f"hello world") // writes to output
 currentTimeMillis() // impure as output depends on something other than input variables
 ```
 
-### **example #1**
+### example 1
 
 ```scala
 // function takes two parameters
@@ -50,7 +53,7 @@ def contains(l: List[Int], n: Int): Boolean = {
 // therefore function is pure
 ```
 
-### example #2
+### example 2
 
 ```scala
 // takes a mutable stack
