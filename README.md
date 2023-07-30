@@ -2,7 +2,7 @@
 
 ![Mdbook Version](https://img.shields.io/badge/mdbook-v0.4.32-brightgreen)
 
-This is a compact guide to writing and especially understanding scala code based primarily on the materials of the Object Oriented and Functional Programming course taught at the VU. The content is for the most part a copy of of [_practice notes_](https://applesauce-notes.notion.site/Quizzes-371775b8b03a4f3883ef292c7f21780f?pvs=4) based on the programming quizzes, but with this project I aimed to expand upon some things and overall improve the readability. As I am working on a few other things the progress for creating this might be slow so I welcome anyone who would want to contribute.
+This is a compact guide to writing and especially understanding scala code based primarily on the materials of the Object Oriented and Functional Programming course taught at the VU. The content is for the most part a copy of my [_exam practice notes_](https://applesauce-notes.notion.site/Quizzes-371775b8b03a4f3883ef292c7f21780f?pvs=4) based on the programming quizzes, but with this project I aimed to expand upon some things and overall improve the readability. As I am working on a few other things the progress for creating this might be slow so I welcome anyone who would want to contribute.
 
 # Progress 
 
