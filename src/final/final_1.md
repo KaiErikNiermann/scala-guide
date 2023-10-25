@@ -121,7 +121,7 @@ val x = Int {
 
 We never create a definition that would shadow `calc` thus the reassignment modifies it. Which in turn means the value of `x` is 
 
-→ `(2 * 3) + (1 * 3) = 10`
+→ `(2 * 3) + (1 + 3) = 10`
 
 ---
 
